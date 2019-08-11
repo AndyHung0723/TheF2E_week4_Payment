@@ -68,6 +68,9 @@ body {
 }
 
 @media (max-width: 768px) {
+    body {
+        font-size: 12px;
+    }
     .order-info {
         position: fixed;
         top: 100px;
@@ -83,4 +86,7 @@ body {
         word-break: break-all;
         width: 1em;
     } 
+    .credit-card-num {
+        width: 4rem !important;
+    }
 }

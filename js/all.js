@@ -90,6 +90,8 @@ function addValidate() {
                 document.querySelector('.step-3 div').classList.add('green-2');
                 document.querySelector('.step-2-progress .progress .progress-bar').classList.remove('w-50');
                 document.querySelector('.step-2-progress .progress .progress-bar').classList.add('w-100');
+                event.preventDefault();
+                event.stopPropagation();
             }
             form.classList.add('was-validated');
         }, false);
