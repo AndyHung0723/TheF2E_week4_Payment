@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Payment</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row my-5">
+            <div class="col-md-3">
+            </div>
+            <div class="col-md-9">
+                <div class="content">
+                    <div class="step d-flex justify-content-center">
+                        <ul class="list-group flex-row">
+                            <li class="step-1 list-group-item border-0 p-0 m-0">
+                                <div class="green-2 text-white text-20 rounded-circle d-flex justify-content-center align-items-center">1</div>
+                            </li>
+                            <li class="step-1-progress list-group-item border-0 p-0 m-0 d-flex align-items-center">
+                                <div class="progress" style="width: 120px; height: 3px;">
+                                    <div class="progress-bar green-2 w-50" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </li>
+                            <li class="step-2 list-group-item border-0 p-0 m-0">
+                                <div class="gray-2 text-white text-20 rounded-circle d-flex justify-content-center align-items-center">2</div>
+                            </li>
+                            <li class="step-2-progress list-group-item border-0 p-0 m-0 d-flex align-items-center">
+                                <div class="progress" style="width: 120px; height: 3px;">
+                                    <div class="progress-bar green-2" style="width: 0%" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </li>
+                            <li class="step-3 list-group-item border-0 p-0 m-0">
+                                <div class="gray-3 text-white text-20 rounded-circle d-flex justify-content-center align-items-center">3</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row no-gutters">
+            <div class="col-md-3 order-md-0 order-last">
+                <div class="menu">
+                    <div class="order-info py-3 pl-3 shadow p-3 mb-5 rounded gray-1">
+                        <div class="row">
+                            <div class="order-info__block col-md-12 col-3 order-md-0 order-last d-flex flex-column">
+                                <span class="order-info__span" style="font-size: 18px; font-weight: bold;">訂單資訊</span>
+                                <span></span>
+                            </div>
+                            <div class="col-md-12 col-9 d-flex flex-column">
+                                <span class="mt-3" style="font-size: 16px;">商品名稱</span>
+                                <span style="font-size: 16px;">Iphone XR手機殼x1</span>
+                                <span class="mt-3" style="font-size: 16px;">訂單編號</span>
+                                <span style="font-size: 16px;">17485739</span>
+                                <span class="mt-3" style="font-size: 16px;">訂單金額</span>
+                                <span style="font-size: 16px;">NT$ 600</span>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-secondary mt-5">返回商店</button>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="content-1 shadow p-3 mb-5 bg-white rounded">
+                    <div class="title text-center my-5">
+                        <h2 class="text-20 text-medium font-weight-bold" style="letter-spacing: 2.09px;">STEP1.選擇付款方式</h2>
+                    </div>
+                    <div class="content-inner">
+                        <div class="row justify-content-between mx-lg-5">
+                            <div class="col-6 col-md-4" style="height: 130px;">
+                                <div class="card-item mx-1 px-4 py-2 gray-1 rounded d-flex flex-column justify-content-end align-items-center" style="height: 100%;">
+                                    <img src="img/credit-card.svg" alt="back-three" style="width: 75px;" class="mb-1">
+                                    <span class="mb-2" style="white-space: nowrap;">信用卡/金融卡</span>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-4" style="height: 130px;">
+                                <div class="card-item mx-1 px-4 py-2 gray-1 rounded d-flex flex-column justify-content-end align-items-center" style="height: 100%;">
+                                    <img src="img/unionpay.svg" alt="unionpay" style="width: 100px;" class="mb-1">
+                                    <span class="mb-2" style="white-space: nowrap;">銀聯卡</span>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-4 mt-md-0 mt-4" style="height: 130px;">
+                                <div class="card-item mx-1 px-4 py-2 gray-1 rounded d-flex flex-column justify-content-end align-items-center" style="height: 100%;">
+                                    <img src="img/shop.svg" alt="shop" style="width: 75px;" class="mb-1">
+                                    <span class="mb-2" style="white-space: nowrap;">超商付款</span>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-4 ml-md-auto mt-4" style="height: 130px;">
+                                <div class="card-item mx-1 px-4 py-2 gray-1 rounded d-flex flex-column justify-content-end align-items-center" style="height: 100%;">
+                                    <img src="img/web-atm.svg" alt="back-three" style="width: 75px;" class="mb-1">
+                                    <span class="mb-2" style="white-space: nowrap;">Web ATM</span>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-4 mr-md-auto ml-md-0 mt-4 mx-auto" style="height: 130px;">
+                                <div class="card-item mx-1 px-4 py-2 gray-1 rounded d-flex flex-column justify-content-end align-items-center" style="height: 100%;">
+                                    <img src="img/atm.svg" alt="unionpay" style="width: 90px;" class="mb-1">
+                                    <span class="mb-2" style="white-space: nowrap;">ATM 轉帳</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="action text-right mx-lg-5 mt-3">
+                        <button type="button" class="next btn green-3 text-white">下一步</button>
+                    </div>
+                </div>
+                <div class="content-2 shadow p-3 mb-5 bg-white rounded d-none">
+                    <div class="title text-center my-5">
+                        <h2 class="text-20 text-medium font-weight-bold" style="letter-spacing: 2.09px;">STEP2.填寫付款資訊</h2>
+                        <h6 class="mt-1">信用卡/金融卡</h6>
+                    </div>
+                    <form class="needs-validation" novalidate>
+                        <div class="content-inner px-5">
+                            <div class="d-flex flex-row">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="pay" id="once" value="once" required>
+                                    <label class="form-check-label" for="once">
+                                        一次付款
+                                    </label>
+                                </div>
+                                <div class="form-check form-check-inline pl-3">
+                                    <input class="form-check-input" type="radio" name="pay" id="installment" value="installment" required>
+                                    <label class="form-check-label" for="installment">
+                                        分期付款
+                                    </label>
+                                </div>
+                            </div>
+                            <p class="mt-3 mb-1">信用卡號</p>
+                            <div class="d-flex flex-row">
+                                <input type="text" class="form-control border border-dark" style="width: 6em;" required>
+                                <span class="border border-dark align-self-center mx-1" style="height: 0; width: 15px;"></span>
+                                <input type="text" class="form-control border border-dark" style="width: 6em;" required>
+                                <span class="border border-dark align-self-center mx-1" style="height: 0; width: 15px;"></span>
+                                <input type="text" class="form-control border border-dark" style="width: 6em;" required>
+                                <span class="border border-dark align-self-center mx-1" style="height: 0; width: 15px;"></span>
+                                <input type="text" class="form-control border border-dark" style="width: 6em;" required>
+                                <div class="col d-none d-md-flex flex-row align-items-start">
+                                    <img src="img/visa.svg" alt="visa" style="width: 3em;">
+                                    <img src="img/mastercard.svg" alt="mastercard" style="width: 3em;">
+                                    <img src="img/jcb.svg" alt="jcb" style="width: 3em;">
+                                </div>
+                            </div>
+                            <p class="mt-3 mb-0">有效年月</p>
+                            <div class="d-flex flex-row">
+                                <div class="form-group mt-2 mb-0">
+                                    <select class="form-control border border-dark" id="effectiveDate" required>
+                                        <option disabled selected></option>
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                        <option>6</option>
+                                        <option>7</option>
+                                        <option>8</option>
+                                        <option>9</option>
+                                        <option>10</option>
+                                        <option>11</option>
+                                        <option>12</option>
+                                    </select>
+                                </div>
+                                <div class="align-self-center mx-2" style="font-size: 1.5rem;">/</div>
+                                <div class="form-group mt-2 mb-0"> 
+                                    <select class="form-control border border-dark" id="effectiveDate" required>
+                                        <option disabled selected></option>
+                                        <option>2019</option>
+                                        <option>2020</option>
+                                        <option>2021</option>
+                                        <option>2022</option>
+                                        <option>2023</option>
+                                        <option>2024</option>
+                                        <option>2025</option>
+                                        <option>2026</option>
+                                        <option>2027</option>
+                                        <option>2028</option>
+                                        <option>2029</option>
+                                        <option>2030</option>
+                                    </select>
+                                </div>
+                                <div class="align-self-center mx-2">年</div>
+                            </div>
+                            <p class="mt-2 mb-1">背面末三碼</p>
+                            <div class="d-flex flex-row">
+                                <input type="text" class="form-control border border-dark" style="width: 6em;" required>
+                                <img src="img/back-three.svg" alt="back-three" style="width: 3em;" class="ml-2">
+                            </div>
+                            <p class="mt-2 mb-1">填寫付款人信箱</p>
+                            <div class="d-flex flex-row">
+                                <input type="text" class="form-control border border-dark" style="width: 15em;" required>
+                            </div>
+                            <div class="form-check mt-3">
+                                <label class="form-check-label">
+                                    <input type="checkbox" class="form-check-input" value="" required>請再次確認「訂單信箱」與「付款資訊」，付款完成後將發送通知信至您的 Email 信箱
+                                </label>
+                            </div>
+                            <a href="#" class="text-muted">第三方支付金流平台服務條款</a>
+                        </div>
+                        <div class="action d-flex flex-row justify-content-between mx-lg-5 mt-5">
+                            <button type="button" class="previous btn green-2 text-white">回上一步</button>
+                            <button type="submit" class="submit btn green-3 text-white">確認付款</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="content-3 shadow p-3 mb-5 bg-white-rounded d-none">
+                    <div class="title text-center my-5">
+                        <h2 class="text-20 text-medium font-weight-bold" style="letter-spacing: 2.09px;">您的訂單已完成付款！</h2>
+                    </div>
+                    <img src="img/finish.svg" alt="finish" class="w-25 mx-auto d-block my-5">
+                    <div class="text-center">稍後將寄送訂單詳細資訊至您的E-mail</div>
+                    <button class="btn green-3 text-white font-weight-bold mx-auto d-block mt-5" style="font-size: 16px;">返回首頁</button>  
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="fixed-bottom"></div>
+    <script src="js/all.js"></script>
+</body>
+</html>
